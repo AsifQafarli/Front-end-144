@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            margin: 0;
+            margin-top: 50px;
+        }
+
+        p {
+            width: 98%;
+        }
+
+        .freld {
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .entry {
+            width: 98%;
+        }
+
+        .gmale {
+            text-align: left;
+        }
+
+        textarea {
+            width: 98%;
+        }
+
+        #login {
+            text-align: right;
+        }
+
+        #reg-btn {
+            margin: 0auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td class="frield"> Frist Name</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">Last Name</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield"> Email</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">Password</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield"> Re-Enter Password</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="frield"> Gender</td>
+                <td>
+                    <p>
+                        <input type="radio" id="gmale">
+                        "Male"
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio">
+                    "Female"
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">Age</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">Addres</td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">State</td>
+                <td>
+                    <input type="text" class="entry">
+                </td>
+            </tr>
+            <tr>
+                <td class="frield">
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="country" class="entry">
+                        <option value="choose" selected="">Choose your country</option>
+                        <option value="usa">United States of America</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ind">India</option>
+                    </select>
+                </td>
+                </select>
+            </tr>
+            <tr>
+                <td class="field">
+                    <label for="lang">Language Known</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="lang" id="lang">English
+                    <input type="checkbox" name="lang" id="lang">Kannada
+                    <input type="checkbox" name="lang" id="lang">Hindi
+                    <input type="checkbox" name="lang" id="lang">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="declaration" id="declaration">Hereby I declare all the given details
+                    are true <br><br>
+                </td>
+            </tr>
+            <tr id="login">
+                <td colspan="2">Log in to <a href="https://www.google.com">Google</a> website</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <div id="reg-btn"><input type="submit" value="Register"></div>
+</body>
+
+</html>
